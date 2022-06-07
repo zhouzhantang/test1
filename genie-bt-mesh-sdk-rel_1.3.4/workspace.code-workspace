@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"gpio.h": "c",
+			"memory": "c",
+			"random": "c",
+			"optional": "c",
+			"my_key.h": "c",
+			"numeric": "c",
+			"switches_output.h": "c"
+		}
+	}
+}

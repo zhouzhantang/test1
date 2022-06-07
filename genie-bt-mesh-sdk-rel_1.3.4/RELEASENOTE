@@ -1,0 +1,38 @@
+## v1.3.4
+1. Restructure for the module of genie_service
+2. Remove all build warnning
+3. Fix some OTA issue
+4. Use random auth value for Provision
+5. Support two AppKey config
+
+## v1.2.7
+1. Support controlled relay function, reference macro CONFIG_BT_MESH_CTRL_RELAY
+
+## v1.2.6
+1. Fix proxy filter match issue
+2. Optimize transport to group address no wait ACK
+3. Fix work issue which can not send beacon anymore when mesh suspend then resume 
+4. Fix issue of ais disconnect after one minute
+5. Change adc support internal capture
+6. Add watch dog interface
+7. Update file of product for check prim partition overflow issue
+8. Update help docs add more help information
+9. Set send ttl to 2
+
+## v1.2.4
+1. Format some codes in the folder of network\app\genie_service and utility
+2. Fix group address full issue
+3. Support user define UART data format for transparent transmission products
+
+## v1.2.3
+1. Remove some boards and platforms
+2. Support GPIO wakeup for GLP(Genie Low Power)
+3. Change MTU(max transport unit) of transparent transmission to 92Bytes
+
+## v1.2.0
+1. Modify tg7100b flash partition
+2. Use KV to save flash data
+3. Decoupling some Macros of BOARD_TG7100B
+
+## v1.1.1
+Please reference https://github.com/alibaba/genie-bt-mesh-stack.git branch:master
